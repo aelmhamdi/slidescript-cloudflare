@@ -1,0 +1,13 @@
+{
+  "name": "slidescript-cloudflare",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-23",
+  "keep_vars": true,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  }
+}
